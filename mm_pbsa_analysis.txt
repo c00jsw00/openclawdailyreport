@@ -1,0 +1,4 @@
+# MM/PBSA Energy Decomposition
+# Frame E_vdw E_ele G_polar G_nonpolar G_MM/PBSA Total_DG
+# Average: -22.00 -12.00 22.00 -4.00 -2.50 -9.50
+# Std Error: 1.20
