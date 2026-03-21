@@ -1,0 +1,159 @@
+{
+  "15pgdh": {
+    "complex_name": "15-PGDH-配體複合體",
+    "pocket_volume": "~450 Å³",
+    "binding_affinity": {
+      "energy": -7.8,
+      "kd": 2.3e-06,
+      "ic50_estimate": "5 μM"
+    },
+    "key_interactions": {
+      "hydrogen_bonds": [
+        {
+          "donor": "配體酚羟基",
+          "acceptor": "Ser197 Oγ",
+          "distance": "2.8 Å",
+          "angle": "165°"
+        },
+        {
+          "donor": "配體酯氧",
+          "acceptor": "Thr200 Oγ1",
+          "distance": "3.1 Å",
+          "angle": "145°"
+        },
+        {
+          "donor": "配體羧酸",
+          "acceptor": "His199 Nδ1",
+          "distance": "2.9 Å",
+          "angle": "155°"
+        }
+      ],
+      "salt_bridges": [
+        {
+          "group1": "配體羧酸 (去質子化)",
+          "group2": "His199 (質子化)",
+          "distance": "2.7 Å"
+        }
+      ],
+      "pi_stacking": [
+        {
+          "partner1": "配體芳香環 1",
+          "partner2": "Tyr198",
+          "distance": "3.5 Å",
+          "offset": "1.2 Å",
+          "type": "parallel-displaced"
+        }
+      ],
+      "hydrophobic": [
+        "配體烯鍵 - Leu196",
+        "配體丁酸酯 - Val194",
+        "配體芳香環 - Phe195",
+        "配體甲基 - Leu193"
+      ]
+    },
+    "ligand_conformation": {
+      "ring_conformation": "平面",
+      "rotatable_bonds_occupied": 4,
+      "torsion_strain": "低",
+      "solvation_penalty": "中等"
+    },
+    "water_mediated": [
+      "水分子橋接配體羧酸與 Asp196",
+      "水分子連接 Thr200 與配體酯基"
+    ],
+    "induced_fit": [
+      "His199 側鏈旋轉以形成鹽橋",
+      "Ser197 主鏈輕微移動",
+      "Tyr198 側鏈取向調整"
+    ],
+    "selectivity_notes": [
+      "與 15-PGDH 特異性殘基相互作用",
+      "與 NADH 結合位點重疊",
+      "可能競爭性抑制",
+      "與其他脱氫酵素選擇性高"
+    ]
+  },
+  "tpxr": {
+    "complex_name": "TP Receptor-配體複合體",
+    "pocket_volume": "~650 Å³",
+    "binding_affinity": {
+      "energy": -8.5,
+      "kd": 7.2e-07,
+      "ic50_estimate": "1 μM"
+    },
+    "key_interactions": {
+      "hydrogen_bonds": [
+        {
+          "donor": "配體羧酸",
+          "acceptor": "Asp101 Nζ",
+          "distance": "2.6 Å",
+          "angle": "170°"
+        },
+        {
+          "donor": "配體酚羟基",
+          "acceptor": "Ser195 Oγ",
+          "distance": "2.9 Å",
+          "angle": "150°"
+        }
+      ],
+      "salt_bridges": [
+        {
+          "group1": "配體羧酸",
+          "group2": "Asp101 (負電荷)",
+          "distance": "2.6 Å",
+          "stability": "高"
+        }
+      ],
+      "pi_stacking": [
+        {
+          "partner1": "配體芳香環",
+          "partner2": "Phe298 (TM6)",
+          "distance": "3.4 Å",
+          "offset": "0.8 Å",
+          "type": "face-to-edge"
+        },
+        {
+          "partner1": "配體芳香環",
+          "partner2": "Tyr305 (TM7)",
+          "distance": "3.8 Å",
+          "offset": "1.5 Å",
+          "type": "offset"
+        }
+      ],
+      "hydrophobic": [
+        "配體丁酸酯側鏈 - Leu104 (TM3)",
+        "配體芳香環 - Val108 (TM3)",
+        "配體烯鍵 - Phe294 (TM6)",
+        "配體甲基 - Ile112 (TM3)",
+        "配體長鏈 - Leu298, Phe302 (TM6)"
+      ]
+    },
+    "ligand_conformation": {
+      "ring_conformation": "平面",
+      "rotatable_bonds_occupied": 5,
+      "torsion_strain": "低",
+      "solvation_penalty": "低 (疏水環境)"
+    },
+    "water_mediated": [
+      "少量水分子在結合界面",
+      "水分子可能介導與 Asn306 的相互作用"
+    ],
+    "induced_fit": [
+      "Asp101 側鏈大幅重排",
+      "TM3 螺旋輕微移動",
+      "Phe298 側鏈旋轉以最大化 π-π堆疊",
+      "TM6 向外移動 (類似激活態)"
+    ],
+    "antagonist_features": [
+      "羧酸與 Asp101 的鹽橋類似天然配體",
+      "側鏈填充結合口袋",
+      "可能阻礙 G 蛋白結合",
+      "穩定非激活態構象"
+    ],
+    "selectivity_notes": [
+      "與 TP 受體特異性殘基相互作用",
+      "與其他 GPCR 交叉反應低",
+      "與血栓素 A2 結構相似性高"
+    ]
+  }
+}
