@@ -1,0 +1,10 @@
+Component,Value_kcal_mol
+Delta_E_vdw,0.00
+Delta_E_ele,0.00
+Delta_G_polar,0.00
+Delta_G_nonpolar,0.00
+Delta_G_MM/PBSA,0.00
+-T_Delta_S,15.20
+Delta_G_total,-15.20
+Kd_M,8.43e-12
+Kd_uM,0.00

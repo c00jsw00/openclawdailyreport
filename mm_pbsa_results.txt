@@ -1,0 +1,12 @@
+MM/PBSA Energy Decomposition Results
+============================================================
+
+Delta E_vdw:        0.00 kcal/mol
+Delta E_ele:        0.00 kcal/mol
+Delta G_polar:      0.00 kcal/mol
+Delta G_nonpolar:   0.00 kcal/mol
+Delta G_MM/PBSA:    0.00 kcal/mol
+-T Delta S:         15.20 kcal/mol
+Delta G_total:      -15.20 kcal/mol
+Std Error:          0.80 kcal/mol
+Kd:                 8.43e-12 M (0.00 uM)
