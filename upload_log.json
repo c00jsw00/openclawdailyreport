@@ -1,0 +1,10 @@
+{
+  "upload_date": "2026-03-22T13:50:22.139605",
+  "files": [
+    "README.md",
+    "vegfr2-boltz2-screening.md",
+    "USAGE_GUIDE.md",
+    "boltz2_vegfr2_screening.py"
+  ],
+  "description": "Boltz-2 配體篩選分析結果和使用方法"
+}
